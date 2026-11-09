@@ -76,7 +76,7 @@ function renderAlbums(albumsToRender) {
 // Create album card element
 function createAlbumCard(album) {
     const card = document.createElement('div');
-    card.className = 'album-card';
+    card.className = 'album-cardd';
     card.innerHTML = `
         <div class="album-cover">${album.emoji}</div>
         <div class="album-info">
